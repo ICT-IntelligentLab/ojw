@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-mybatis01
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/db01
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
